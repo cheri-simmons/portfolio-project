@@ -1,3 +1,34 @@
-img {
-  width: 35px;
+:root {
+  --light-purple: rgb(146, 127, 191);
+  --dark-purple: rgb(79, 59, 120);
+  --silver: rgb(192, 192, 192);
+  --dim-gray: rgb(105, 105, 105);
+}
+
+body {
+  font-family: "Georgia", "Verdana", "Arial", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+  color: var(--dark-purple);
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.index-container {
+}
+
+.icons-container {
+  width: 250px;
+  height: 50px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
 }
