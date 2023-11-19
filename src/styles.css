@@ -7,6 +7,8 @@
 
 body {
   font-family: "Georgia", "Verdana", "Arial", "Times New Roman", Times, serif;
+  background-color: rgb(220, 220, 220);
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -20,15 +22,19 @@ h2 {
   font-weight: 500;
 }
 
-.index-container {
+.intro-container {
+  margin: 200px auto;
 }
 
-.icons-container {
-  width: 250px;
-  height: 50px;
+.intro {
+  max-width: 700px;
+  width: 100%;
+}
+.img-self {
+  max-width: 275px;
+  background-color: var(--light-purple);
 }
 
-.icon {
-  width: 30px;
-  height: 30px;
+.img-self-bg {
+  background-color: var(--light-purple);
 }
